@@ -1,0 +1,19 @@
+{
+  "name": "apache-clf-parser",
+  "version": "0.1.0",
+  "description":
+    "This module parses Apache common log format files, counts number of times a resource has been accessed and produces a csv file with the stats.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vic <vic@minustime.com>",
+  "license": "ISC"
+}

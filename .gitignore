@@ -1,0 +1,6 @@
+node_modules
+*.log
+*.swp
+*.swo
+.DS_Store
+report.csv
