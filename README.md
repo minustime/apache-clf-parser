@@ -4,11 +4,13 @@ This module parses Apache common log format files, counts number of times a reso
 
 ## Usage
 
-```
-// install the module
+1. install the module
 
+```
 $ npm install https://github.com/minustime/apache-clf-parser
 ```
+
+2. Setup your script
 
 ```
 // index.js
@@ -21,9 +23,9 @@ parser.parse({
 });
 ```
 
-```
-// run it
+3. Run it
 
+```
 $ node index.js
 ```
 
