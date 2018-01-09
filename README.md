@@ -33,12 +33,14 @@ $ node index.js
 
 An optional object can be passed to the `parse` function with the following properties.
 
-| option       | default    | description                                                       |
-| ------------ | ---------- | ----------------------------------------------------------------- |
-| logs         | logs       | directory where logs files are located, can include gzipped files |
-| logExtension | gz         | log file extension                                                |
-| report       | report.csv | name of csv file to write report to                               |
-| logSource    |            | string that gets prepended to each resource line in report file   |
+| option         | type   | default     | description                                                       |
+| -------------- | ------ | ----------- | ----------------------------------------------------------------- |
+| logs           | string | logs        | directory where logs files are located, can include gzipped files |
+| logExtension   | string | gz          | log file extension                                                |
+| report         | string | report.csv  | name of csv file to write report to                               |
+| logSource      | string |             | string that gets prepended to each resource line in report file   |
+| filterByVerb   | array  | [GET, POST] | array of HTTP verbs to filter by                                  |
+| ignoreResource | array  |             | array of resource paths to ignore                                 |
 
 ## Report
 
